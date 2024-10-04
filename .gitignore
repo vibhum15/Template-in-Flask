@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE or editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python environment variables
+*.env
+*.env.local
+
+# Logs
+*.log
+
+# Test output
+pytest_cache/
+nose2report.xml
+nosetests.xml
+*.cover
+*.coverage
+*.hypothesis/
+.coverage.*
+
+# Data files
+*.csv
+*.json
+*.xlsx
+
+# Misc
+.DS_Store  # macOS
+Thumbs.db  # Windows
