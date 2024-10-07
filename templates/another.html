@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{%block title%} Another {%endblock%}
+{%block content%}  
+<h1>This is my Another page</h1>
+<p>{{text | upper}}</p>
+<p>{{text | lower}}</p>
+<p>{{text | replace('A', '$')}}</p>
+    {%endblock%}
